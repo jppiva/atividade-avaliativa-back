@@ -1,5 +1,6 @@
 import express from 'express';
 import 'dotenv/config';
+
 import exemplosRoutes from './routes/exemploRoute.js';
 import { apiKey } from './lib/middlewares/apiKey.js';
 import arquivoRoutes from './routes/arquivoRoute.js';
